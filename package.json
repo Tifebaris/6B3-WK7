@@ -1,0 +1,19 @@
+{
+  "name": "6b3-wk7",
+  "version": "1.0.0",
+  "description": "tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./styles.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Tifebaris/6B3-WK7.git"
+  },
+  "author": "tifebaris",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
