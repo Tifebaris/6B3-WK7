@@ -25,10 +25,10 @@
                       </ul>
                       <ul class="hidden md:flex md:ml-10 space-x-4 py-6">
                     <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#">Home</a></li>
-                    <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#">Services</a></li>
-                    <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#">About Me</a></li>
-                    <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#">Portfolio</a></li>
-                    <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#">Contact Me</a></li>
+                    <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#services">Services</a></li>
+                    <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#aboutme">About Me</a></li>
+                    <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#portfolio">Portfolio</a></li>
+                    <li class=" hover:border-b-2 hover:border-[#B20600] text-white border-solid"><a href="#contactme">Contact Me</a></li>
 
                       </ul>
                     </div>
@@ -61,7 +61,7 @@
    </main>
 
    <!-- Services Section -->
-   <section class="py-16 bg-[#f5f5f5]">
+   <section id="services" class="py-16 bg-[#f5f5f5]">
     <div class="container mx-auto px-4">
      <div  class="font-semibold text-[#00092C] text-4xl justify-center text-center mb-6"><h1 class=" border-[#B20600] border-b-2 border-solid inline-block">My Services</h1></div><div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -89,7 +89,7 @@
    </section>
 
    <!-- About Section -->
-   <section class="py-16 bg-[#eef]">
+   <section id="aboutme" class="py-16 bg-[#eef]">
     <div class="container mx-auto px-4">
      <div  class="font-semibold text-[#00092C] text-4xl justify-center text-center mb-6"><h1 class=" border-[#B20600] border-b-2 border-solid inline-block">About Me</h1></div><div>
 
@@ -106,7 +106,9 @@
               <p class="text-gray-700">I thrive on turning complex ideas into elegant and functional applications, 
                 collaborating closely with cross-functional teams. Let's create exceptional digital experiences.</p>
               <div class="mt-8">
-                <button class="text-white bg-[#c00] py-3 px-4 mt-4 hover:bg-[#900] transition duration-500">Download CV</button>
+                <a href="./Adesewa_Adetoro's_Resume (1).pdf" class="text-white bg-[#c00] py-3 px-4 mt-4 hover:bg-[#900] transition duration-500">Download CV
+                </a>
+
               </div>
             </div>
           </div>
@@ -114,30 +116,39 @@
       </section>
 
       <!-- Portfolio Section -->
-      <section class="py-16 bg-[#f5f5f5]">
+      <section id="Portfolio" class="py-16 bg-[#f5f5f5]">
         <div class="container mx-auto px-4">
             <div  class="font-semibold text-[#151515] text-4xl justify-center text-center mb-6"><h1 class=" border-[#B20600] border-b-2 border-solid inline-block">Latest Projects</h1></div><div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="bg-white p-6   shadow">
               <img src="./images/pexels-pixabay-36717.jpg" alt="">
-              <h3 class="text-xl font-semibold mb-4 text-center">Project 1</h3>
-              <p class="text-gray-700 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at convallis mi.
-                Curabitur lobortis tempus sem eu sollicitudin.</p>
-               <div class="flex justify-center"> <button class="text-white bg-[#c00] py-2 px-3 mt-4 hover:bg-[#900] transition duration-500">View project</button></div>
+              <h3 class="text-xl font-semibold mb-4 text-center">CalcEasy</h3>
+              <p class="text-gray-700 text-center">CalcEasy  user-friendly calculator for easy and efficient calculations. 
+                 Making calculations a breeze on any device.</p>
+               <div class="flex justify-center">
+                <a href="https://tifebaris.github.io/CalcEasy/" class="text-white bg-[#c00] py-2 px-3 mt-4 hover:bg-[#900] transition duration-500">View project</a>
+</div>
             </div>
             <div class="bg-white p-6  shadow">
               <img src="./images/pexels-pixabay-36717.jpg" alt="">
-              <h3 class="text-xl font-semibold mb-4 text-center">Project 2</h3>
-              <p class="text-gray-700 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at convallis mi.
-                Curabitur lobortis tempus sem eu sollicitudin.</p>
-                <div class="flex justify-center"> <button class="text-white bg-[#c00] py-2 px-3 mt-4 hover:bg-[#900] transition duration-500">View project</button></div>
+              <h3 class="text-xl font-semibold mb-4 text-center">Netflix Clone</h3>
+              <p class="text-gray-700 text-center">
+               
+             "NetflixClone: Unlimited streaming, personalized recommendations, 
+              and seamless viewing on any device. Discover, indulge, and enjoy!"
+                .</p>
+                <div class="flex justify-center"> 
+                  <a href="https://tifebaris.github.io/Netflix-Clone/" class="text-white bg-[#c00] py-2 px-3 mt-4 hover:bg-[#900] transition duration-500">View project</a>
+                </div>
             </div>
             <div class="bg-white p-6  shadow">
               <img src="./images/pexels-pixabay-36717.jpg" alt="">
               <h3 class="text-xl font-semibold mb-4 text-center">Project 3</h3>
               <p class="text-gray-700 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at convallis mi.
                 Curabitur lobortis tempus sem eu sollicitudin.</p>
-                <div class="flex justify-center"> <button class="text-white bg-[#c00] py-2 px-3 mt-4 hover:bg-[#900] transition duration-500">View project</button></div>
+                <div class="flex justify-center">
+                  <a href="https://tifebaris.github.io/CalcEasy/" class="text-white bg-[#c00] py-2 px-3 mt-4 hover:bg-[#900] transition duration-500">View project</a>
+                  </div>
             </div>
           </div>
         </div>
@@ -145,7 +156,7 @@
        
 
       <!-- Contact Me Section -->
-      <section class="bg-[#000412] py-10">
+      <section id="contactme" class="bg-[#000412] py-10">
         <div>
           <div  class="font-semibold text-[#fff] text-4xl justify-center text-center mb-6 mt-6"><h1 class=" border-[#B20600] border-b-2 border-solid inline-block">Contact Me</h1></div><div>
            <div class="flex justify-center">
