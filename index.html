@@ -18,7 +18,7 @@
 
 <body>
   <!-- Hero section -->
-  <main class="bg-[#00092C] min-h-[200px] md:h-screen ">
+  <main class="bg-[#00092C] h-auto md:h-screen " id="home">
    
     
     <nav class="bg-[#fff] h-[60px] items-center  md:bg-[#00092C]  flex justify-between mx-auto px-6 text-white">
@@ -26,11 +26,11 @@
       <li><img class="w-8 h-8 md:w-10 md:h-10" src="./images/android-chrome-192x192.png" alt=""></li>
     </ul>
     <ul class="hidden md:flex md:ml-10 md:space-x-4 md:py-6" id="menu">
-      <li class=" hover:border-b-2 hover:border-[#B20600] text-[#b20600] md:text-[#b20600] border-solid"><a href="#">Home</a></li>
-      <li class=" hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#services">Services</a></li>
-      <li class=" hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#aboutme">About Me</a></li>
-      <li class=" hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#portfolio">Portfolio</a></li>
-      <li class=" hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#contactme">Contact Me</a></li>
+      <li class="  text-[#b20600] md:text-[#b20600] "><a href="#home">Home</a></li>
+      <li class="md:hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#services">Services</a></li>
+      <li class="md:hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#aboutme">About Me</a></li>
+      <li class="md:hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#portfolio">Portfolio</a></li>
+      <li class="md:hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#contactme">Contact Me</a></li>
       
     </ul>
     <div class=" block md:hidden">
@@ -53,34 +53,30 @@
     </div>
   </nav>
     <ul class="hidden md:ml-10 md:space-x-4 md:py-6" id="menus">
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#b20600] md:text-[#b20600]"><a href="#">Home</a></li>
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#00092C] md:text-white"><a href="#services">Services</a></li>
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#00092C] md:text-white"><a href="#aboutme">About Me</a></li>
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#00092C] md:text-white"><a href="#portfolio">Portfolio</a></li>
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#00092C] md:text-white"><a href="#contactme">Contact Me</a></li>
+      <li class=" pl-5 mb-3 hover:text-[#b20600]  text-[#] md:text-[#b20600]"><a href="#home">Home</a></li>
+      <li class=" pl-5 mb-3 hover:text-[#b20600]  text-[#00092C] md:text-white"><a href="#services">Services</a></li>
+      <li class=" pl-5 mb-3 hover:text-[#b20600]  text-[#00092C] md:text-white"><a href="#aboutme">About Me</a></li>
+      <li class=" pl-5 mb-3 hover:text-[#b20600]  text-[#00092C] md:text-white"><a href="#portfolio">Portfolio</a></li>
+      <li class=" pl-5 mb-3 hover:text-[#b20600]  text-[#00092C] md:text-white"><a href="#contactme">Contact Me</a></li>
       
     </ul>
-                
-                
-                
-                
-       <section class="hero ">
-        <div class="mt-[2rem] flex justify-center md:justify-end mb-8 md:mb-auto">
-          <img src="./images/tife-removebg-preview.png" alt="" class=" bg-[#f7e6e5] mb-10  rounded-[50%] w-[250px] h-[250px] md:w-[500px] md:h-[400px] md:bg-[#00092C] md:rounded-none py absolute"> 
+    <div>
+      <div class="flex justify-center items-center pt-5">
+          <img src="./images/tife-removebg-preview.png" alt="" class="rounded-[50%] bg-[#f7e6e5] w-[250px] h-[250px] items-center md:pt-4">
+      </div>
+      <div class="flex flex-col justify-center items-center my-6 py-6 ">
+          <h1 class="text-[#fff] font-semibold text-3xl md:text-4xl text-center">Hello, I'm <span class="text-[#b20600]" >Adesewa,</span></h1><br>
+          <p class="text-[#fff] font-normal text-[15px]  md:text-lg text-center">
+            A Full-stack Developer and a Product Designer. <br>
+                     I'm passionate about creating user-centered products that solve real-world problems. </p> 
+              <a href="#portfolio" class="text-white bg-[#c00] py-3 px-4 my-4 hover:bg-[#900] transition duration-500">Portfolio</a>
           
-        </div>
-        
-        <div class="sm:mt-8 pt-8">
-          <div class="flex flex-col justify-center min-h-[80vh] items-center mt-12 pt-10 md:items-start md:my-32  md:h-screen mx-20">
-            <h1 class=" text-white font-semibold text-3xl text-center mt-6 md:text-left   md:text-white md:font-semibold  md:mt-4">Hello, I'm <span class="text-[#b20600]">Adesewa</span>,</h1>
-            <p class="text-white font-normal mt-4 text-center md:text-left">A Full-stack Developer and a Product Designer. <br>
-                    I'm passionate about creating user-centered products <br> that solve real-world problems.</p>
-                    <a href="#portfolio" class="text-white bg-[#c00] py-3 px-4 mt-4 hover:bg-[#900] transition duration-500">Portfolio</a>
-  
-  
-              
-          </div>
-       </section>
+      </div>
+  </div>
+                
+             
+                
+    
        
    
    </main>
