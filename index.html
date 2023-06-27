@@ -18,12 +18,12 @@
 
 <body>
   <!-- Hero section -->
-  <main class="bg-[#00092C] h-screen ">
+  <main class="bg-[#00092C] min-h-[200px] md:h-screen ">
    
     
-    <nav class="bg-[#fff] h-[40px] md:bg-[#00092C]  flex justify-between mx-auto px-6 text-white">
+    <nav class="bg-[#fff] h-[60px] items-center  md:bg-[#00092C]  flex justify-between mx-auto px-6 text-white">
     <ul class="py-6">
-      <li><img class="w-10 h-10" src="./images/android-chrome-192x192.png" alt=""></li>
+      <li><img class="w-8 h-8 md:w-10 md:h-10" src="./images/android-chrome-192x192.png" alt=""></li>
     </ul>
     <ul class="hidden md:flex md:ml-10 md:space-x-4 md:py-6" id="menu">
       <li class=" hover:border-b-2 hover:border-[#B20600] text-[#b20600] md:text-[#b20600] border-solid"><a href="#">Home</a></li>
@@ -36,13 +36,13 @@
     <div class=" block md:hidden">
       <button type="button" class="text-gray-300 hover:text-white focus:outline-none focus:text-white text-[20px] py-6" >
         <span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 md:hidden text-[#00092C]"id="hMenu">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[30px] h-[30px] md:w-10 md:h-10 md:hidden  text-[#00092C]"id="hMenu">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </span>
     
         <span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 md:hidden hidden text-[#00092C]" id="cancel">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[30px] h-[30px] md:w-10 md:h-10 md:hidden hidden text-[#00092C]" id="cancel">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
           
@@ -53,32 +53,34 @@
     </div>
   </nav>
     <ul class="hidden md:ml-10 md:space-x-4 md:py-6" id="menus">
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] text-[#b20600] md:text-[#b20600] border-solid"><a href="#">Home</a></li>
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#services">Services</a></li>
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#aboutme">About Me</a></li>
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#portfolio">Portfolio</a></li>
-      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] text-[#00092C] md:text-white border-solid"><a href="#contactme">Contact Me</a></li>
+      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#b20600] md:text-[#b20600]"><a href="#">Home</a></li>
+      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#00092C] md:text-white"><a href="#services">Services</a></li>
+      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#00092C] md:text-white"><a href="#aboutme">About Me</a></li>
+      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#00092C] md:text-white"><a href="#portfolio">Portfolio</a></li>
+      <li class=" pl-5 mb-3 hover:border-b-2 hover:border-[#B20600] border-solid text-[#00092C] md:text-white"><a href="#contactme">Contact Me</a></li>
       
     </ul>
                 
                 
                 
                 
-                <div class="mt-[2rem] flex justify-center md:justify-end mb-8 md:mb-auto">
-        <img src="./images/tife-removebg-preview.png" alt="" class=" bg-[#f7e6e5] mb-6 rounded-[50%] w-[250px] h-[250px] md:w-[500px] md:h-[400px] md:bg-[#00092C] md:rounded-none py absolute"> 
-        
-      </div>
-      
-      <div>
-        <div class="flex flex-col justify-center items-center md:items-start  h-screen mx-20">
-          <h1 class=" text-white font-semibold text-4xl text-center md:text-left   md:text-white md:font-semibold  md:mt-4">Hello, I'm <span class="text-[#b20600]">Adesewa</span>,</h1>
-          <p class="text-white font-normal mt-4 text-center md:text-left">A Full-stack Developer and a Product Designer. <br>
-                  I'm passionate about creating user-centered products <br> that solve real-world problems.</p>
-                  <a href="#portfolio" class="text-white bg-[#c00] py-3 px-4 mt-4 hover:bg-[#900] transition duration-500">Portfolio</a>
-
-
-            
+       <section class="hero ">
+        <div class="mt-[2rem] flex justify-center md:justify-end mb-8 md:mb-auto">
+          <img src="./images/tife-removebg-preview.png" alt="" class=" bg-[#f7e6e5] mb-10  rounded-[50%] w-[250px] h-[250px] md:w-[500px] md:h-[400px] md:bg-[#00092C] md:rounded-none py absolute"> 
+          
         </div>
+        
+        <div class="sm:mt-8 pt-8">
+          <div class="flex flex-col justify-center items-center mt-12 pt-10 md:items-start md:my-32 h-[80vh] md:h-screen mx-20">
+            <h1 class=" text-white font-semibold text-3xl text-center mt-6 md:text-left   md:text-white md:font-semibold  md:mt-4">Hello, I'm <span class="text-[#b20600]">Adesewa</span>,</h1>
+            <p class="text-white font-normal mt-4 text-center md:text-left">A Full-stack Developer and a Product Designer. <br>
+                    I'm passionate about creating user-centered products <br> that solve real-world problems.</p>
+                    <a href="#portfolio" class="text-white bg-[#c00] py-3 px-4 mt-4 hover:bg-[#900] transition duration-500">Portfolio</a>
+  
+  
+              
+          </div>
+       </section>
        
    
    </main>
@@ -214,6 +216,7 @@ Get ready to test your knowledge, have a blast,
       const menu = document.getElementById('menus')
       const cancel = document.getElementById('cancel')
       const nav = document.querySelector('nav')
+      const hero = document.getElementsByClassName('hero')
 
       hMenu.addEventListener('click', function(){
         // menu.classList.toggle("hidden")
@@ -221,6 +224,7 @@ Get ready to test your knowledge, have a blast,
         menu.style.background = 'white'
         hMenu.style.display = 'none'
         cancel.style.display = "block"
+   
         
       })
       
@@ -229,7 +233,8 @@ Get ready to test your knowledge, have a blast,
         menu.style.display = 'none'
         hMenu.style.display = 'block'
         cancel.style.display = "none"
-        menu.classList.add('h-[150px]')
+        menu.classList.add('h-[200px]')
+        
       })
     </script>
     
